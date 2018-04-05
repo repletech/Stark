@@ -1,0 +1,3 @@
+server:
+  context-path: /stark
+  port: 8080
