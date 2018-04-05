@@ -32,7 +32,7 @@ Method Type : POST
 Request Payload:
 ```
 {
-  "name":"calculater",
+  "name":"calculator",
   "wsdlUrl": "http://www.dneonline.com/calculator.asmx?WSDL"
 }
 ```
@@ -51,7 +51,7 @@ Request Payload:
     "operations": [
         {
             "name": "Add",
-            "url": "http://localhost:8080/stark/api/v1/execute/calculater/add",
+            "url": "http://localhost:8080/stark/api/v1/execute/calculator/add",
             "listOfParams": [
                 "intA",
                 "intB"
@@ -59,7 +59,7 @@ Request Payload:
         },
         {
             "name": "Divide",
-            "url": "http://localhost:8080/stark/api/v1/execute/calculater/divide",
+            "url": "http://localhost:8080/stark/api/v1/execute/calculator/divide",
             "listOfParams": [
                 "intA",
                 "intB"
@@ -67,7 +67,7 @@ Request Payload:
         },
         {
             "name": "Multiply",
-            "url": "http://localhost:8080/stark/api/v1/execute/calculater/multiply",
+            "url": "http://localhost:8080/stark/api/v1/execute/calculator/multiply",
             "listOfParams": [
                 "intA",
                 "intB"
@@ -75,7 +75,7 @@ Request Payload:
         },
         {
             "name": "Subtract",
-            "url": "http://localhost:8080/stark/api/v1/execute/calculater/subtract",
+            "url": "http://localhost:8080/stark/api/v1/execute/calculator/subtract",
             "listOfParams": [
                 "intA",
                 "intB"
@@ -106,7 +106,7 @@ Method Type : GET
 
 URL :
 ```
-http://localhost:8080/stark/api/v1/execute/calculater/add?inta=10&intb=20
+http://localhost:8080/stark/api/v1/execute/calculator/add?inta=10&intb=20
 ```
 **Request-headers :**
 > X-Transformation: (Boolean type). Default value is false, hence it would give the original response in JSON. If value is set to true, WSDL details would be removed from the response. Ex. below
