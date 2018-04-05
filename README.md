@@ -146,5 +146,5 @@ When: X-Transformation : true
 
 ## License
 
-This project is licensed under the FYND License - see the [LICENSE.md](LICENSE.md) file for details
+GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md)
 
