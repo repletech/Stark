@@ -1,7 +1,7 @@
 # STARK
 
 **Description:** Soap services are quite heavy weight and can be tedious to work with. Though these services are still important assets to many organizations it would be much easier to work with JSON rather than working with SOAP which is xml based( its no fun! ).
-With **Stark** - A lightweight java service you can easily consume SOAP web services and transform it into REST APIs. Stark enables you to provide a SOAP WSDL URL and it returns you it's REST transformed end-points.
+With **Stark** - A lightweight java service which consumes SOAP web service and transform it into REST APIs. Stark enables you to provide a SOAP WSDL URL and it returns you it's REST transformed end-points.
 
 
 ### Prerequisites
